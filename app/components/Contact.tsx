@@ -4,7 +4,7 @@ export default function Contact(){
 
             {/*LEFT*/}
             <div className="">
-                <h2 className="text-4xl italic text-black font-light">Vamos trabalhar juntos?</h2>
+                <h2 className="text-4xl italic text-zinc-400 font-light">Vamos trabalhar juntos?</h2>
                 <p className="text-zinc-400">Aberto a projetos freelance e oportunidades CLT.</p>
             </div>
 

@@ -1,7 +1,9 @@
 export default function Experience(){
     return(
-        <section className="text-white mt-20">
-            <h2>Experiência</h2>
+        <section className="max-w-6xl mx-auto px-1 py-20">
+            <h2 className="text-3xl font-semibold text-white mb-12">
+                Experiência
+            </h2>
 
 
          <div className="space-y12">

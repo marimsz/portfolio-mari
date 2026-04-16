@@ -10,12 +10,11 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
      <>
-    <main>
-      <div className="min-h-screen flex flex-col justify-between bg-linear-to-br from-[#0f0f14] via-[#1a1a2e] to-[#0f0f14] text-zinc-200"/>
+      <main className="flex items-center justify-around mt-30">
         <div className="max-w-xl space-y-6">
-         <h3 className="text-sm uppercase tracking-[0.2em] text-purple-400 font-mono">Desenvolvedor de Backend</h3><br />
+         <h3 className="text-sm uppercase tracking-[0.2em] text-lime-400 font-mono">Desenvolvedor de Backend</h3><br />
          <h1 className="text-5xl md:text-7xl font-serif leading-tight tracking-tight">Mariana Mirelly</h1>
-         <p className="text-zinc-400 text-lg leading-relaxed max-w-md">
+         <p className="text-zinc-800 text-lg leading-relaxed max-w-md text-justify">
           Construo produtos web do zero -
           desde a API até a interface.
           Foco em código limpo, UX que faz sentido e entregas que não travam</p>
@@ -27,6 +26,7 @@ export default function Home() {
        alt="foto perfil"
        width={250}
        height={250}
+       priority
        />
       </div>
 
@@ -53,7 +53,7 @@ export default function Home() {
     </section>
 
     <section className="max-w-5xl ml-25 mx-auto px-6 py-20">
-     <h2 className="text-3xl font-semibold text-black mb-12">Experiência</h2>
+     <h2 className="text-3xl font-semibold text-white mb-12">Experiência</h2>
     </section>
 
     <section>
@@ -67,7 +67,7 @@ export default function Home() {
     <section>
        <Footer />
     </section>
-    
+
     </>
     
   );
