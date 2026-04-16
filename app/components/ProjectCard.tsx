@@ -1,15 +1,13 @@
+import { FaGithub } from "react-icons/fa"
+
 type ProjectProps = {
     title:string
     description:string
     techs:string[]
+    github:string
 }
 
-export default function ProjectCard({
-    title,
-    description,
-    techs
-}:ProjectProps) {
-  
+export default function ProjectCard({title, description, techs, github}:ProjectProps) {
     return(
         <div className="bg-zinc-900 border border-zinc-800 rounded-x1 p-6 hover:big-zinc-600">
           <h3 className="text-lg font-semibold text-white">{title}</h3>
@@ -20,6 +18,9 @@ export default function ProjectCard({
               </span>
           ))}
         </div>
-        </div>
+        <a href={github} target="_blank" className="text-lime-400 hover: underline">
+         <FaGithub size={32} />
+        </a>
+      </div>
     )
 }
