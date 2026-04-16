@@ -12,7 +12,7 @@ export default function Home() {
      <>
       <main className="flex items-center justify-around mt-30">
         <div className="max-w-xl space-y-6">
-         <h3 className="text-sm uppercase tracking-[0.2em] text-lime-400 font-mono">Desenvolvedor de Backend</h3><br />
+         <h3 className="text-sm uppercase tracking-[0.2em] text-lime-400 font-mono">Desenvolvedora de Backend</h3><br />
          <h1 className="text-5xl md:text-7xl font-serif leading-tight tracking-tight">Mariana Mirelly</h1>
          <p className="text-zinc-800 text-lg leading-relaxed max-w-md text-justify">
           Construo produtos web do zero -
